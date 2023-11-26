@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sincar/testVeri.dart';
+import 'package:sincar/fitBirVucud/testVeri.dart';
 import 'constants.dart';
 void main() => runApp(fitBirVucud());
 

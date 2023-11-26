@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class atistirmaliklar extends StatelessWidget {
-  const atistirmaliklar({Key? key}) : super(key: key);
+class araOgun extends StatelessWidget {
+  const araOgun({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "",
       home: Scaffold(
         appBar:AppBar(
-          title: Text("atıştırmalık olarak tüketebilecekler"),
+          title: Text("Ara öğün olarak tüketebilecekler"),
 
         ),
 

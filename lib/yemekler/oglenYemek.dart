@@ -24,7 +24,7 @@ class _oglenYemekState extends State<oglenYemek> {
       title: "",
       home: Scaffold(
         appBar:AppBar(
-          title: Text("Öğlen vakti yenilecek yemekler"),
+          title: Text("Öğlen vakti yemek yeme"),
 
         ),
 
@@ -50,7 +50,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: et>=1 ? Colors.white70 : Colors.white ,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 
@@ -103,7 +103,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: pilav>=1 ? Colors.white70 : Colors.white ,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 
@@ -160,7 +160,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: kuruFasulye>=1 ? Colors.white70 : Colors.white ,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 
@@ -215,7 +215,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: makarna>=1 ? Colors.white70 : Colors.white ,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 
@@ -271,7 +271,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 
@@ -326,7 +326,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 
@@ -382,7 +382,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 
@@ -437,7 +437,7 @@ class _oglenYemekState extends State<oglenYemek> {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(15.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(0),
 
 

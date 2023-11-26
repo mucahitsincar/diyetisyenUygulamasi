@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sincar/yemekler/sabahKahvaltisi.dart';
 import 'package:sincar/yemekler/oglenYemek.dart';
 import 'package:sincar/yemekler/aksamYemek.dart';
-import 'package:sincar/yemekler/atistirmaliklar.dart';
+import 'package:sincar/yemekler/araOgun.dart';
 class yemekler extends StatelessWidget {
   const yemekler({Key? key}) : super(key: key);
 
@@ -237,7 +237,7 @@ class yemekler extends StatelessWidget {
                             Navigator.push(
 
                               context,
-                              MaterialPageRoute(builder: (context) => const atistirmaliklar()),
+                              MaterialPageRoute(builder: (context) => const araOgun()),
 
                             );
                           },
@@ -256,7 +256,7 @@ class yemekler extends StatelessWidget {
 
                                         ),
 
-                                        Text("Atıştırmalıklar",
+                                        Text("Ara öğünler",
                                             style:TextStyle(
                                               color: Colors.black,
 

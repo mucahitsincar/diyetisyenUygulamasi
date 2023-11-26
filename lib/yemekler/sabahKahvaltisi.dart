@@ -34,7 +34,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -75,7 +75,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -113,7 +113,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -151,7 +151,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -189,7 +189,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -228,7 +228,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -267,7 +267,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -306,7 +306,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 
@@ -345,7 +345,7 @@ class sabahKahvaltisi extends StatelessWidget {
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadiusDirectional.circular(16),
                     color: Colors.white,),
-                  margin: EdgeInsets.all(33.0),
+                  margin: EdgeInsets.all(5.0),
                   padding: EdgeInsets.all(33.0),
 
 

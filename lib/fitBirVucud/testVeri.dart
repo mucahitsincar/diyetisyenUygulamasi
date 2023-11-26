@@ -1,5 +1,5 @@
 
-import 'package:sincar/SaruClass.dart';
+import 'package:sincar/fitBirVucud/SaruClass.dart';
 
 class testVeri{
   int _soruIndex=0;
