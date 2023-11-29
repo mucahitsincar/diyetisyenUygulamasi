@@ -1,57 +1,114 @@
 import 'package:flutter/material.dart';
-class uygulamaIcinGirisYapiniz extends StatefulWidget {
-  const uygulamaIcinGirisYapiniz({Key? key}) : super(key: key);
 
-  @override
-  State<uygulamaIcinGirisYapiniz> createState() => _uygulamaIcinGirisYapiniz();
-}
+void main() => runApp(MyApp());
 
-class _uygulamaIcinGirisYapiniz extends State<uygulamaIcinGirisYapiniz> {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    const appName = 'ÜYELIK GIRIŞI';
-
     return MaterialApp(
-
-      debugShowCheckedModeBanner:false,
-
-      title: appName,
-
-      home: const MyHomePage(
-        title: appName,
-      ),
+      debugShowCheckedModeBanner: false,
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatelessWidget {
-  final String title;
-
-  const MyHomePage({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       appBar: AppBar(
-        backgroundColor: Colors.white,
-
-        title: Text(title),
-
+        title: Text('callback kullanımı'),
       ),
-      backgroundColor: Colors.white30,
       body: Center(
-
-        child: Container(
-
-          color: Theme.of(context).colorScheme.secondary,
-          child: Text(
-            'Text with a background color',
-            style: Theme.of(context).textTheme.titleLarge,
-          ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Expanded(child: SolWidgetA()),
+            Expanded(child: SagWidgetA())
+          ],
         ),
       ),
-
     );
   }
+}
+
+class SolWidgetA extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        color: Colors.yellow,
+        child: Column(
+          children: [
+            Text(
+              'Sol Widget',
+              style: TextStyle(fontSize: 20),
+            ),
+            Text(
+              'Sehir: ..... ',
+              style: TextStyle(fontSize: 20),
+            )
+          ],
+        ));
+  }
+}
+
+class SagWidgetA extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.green,
+      child: Column(children: [
+        Text(
+          'SagWidget A',
+          style: TextStyle(fontSize: 20),
+        ),
+        SagWidgetB()
+      ]),
+    );
+  }
+}
+
+class SagWidgetB extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 300,
+      width: 180,
+      color: Colors.purple,
+      child: Column(children: [
+        Text(
+          'SagWidget B',
+          style: TextStyle(fontSize: 20),
+        ),
+        SagWidgetC()
+      ]),
+    );
+  }
+}
+
+class SagWidgetC extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.white,
+      height: 150,
+      width: 160,
+      child: Column(children: [
+        Text(
+          'SagWidget C',
+          style: TextStyle(fontSize: 20),
+        ),
+        Text(
+          'Şehir: ... ',
+          style: TextStyle(fontSize: 20),
+        ),
+        TextField(onChanged: null)
+      ]),
+    );
+  }
+}
+class StateData{
+  String sehir='adana';
 }

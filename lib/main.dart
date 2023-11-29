@@ -271,7 +271,7 @@ class _FirstRouteState extends State<FirstRoute> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => uygulamaIcinGirisYapiniz()),
+                          builder: (context) => MyApp()),
                     );
                     print("uygulama için giriş yapıldı");
                   },
